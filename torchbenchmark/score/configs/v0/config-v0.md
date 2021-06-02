@@ -52,7 +52,6 @@ execution, and the standard config YAML is a summary of it.
 First, the YAML defines the models that are tested in the standard execution.
 Below is the complete list of the models we test in V0:
 
-- pytorch_mobilenet_v3
 - yolov3
 - Background_Matting
 - attention_is_all_you_need_pytorch
@@ -68,4 +67,3 @@ Second, the YAML defines that the performance score of the standard execution
 is 1000. All other V0 scores are relative to it. For example, if another
 benchmark execution's score is 900, it means the its performance is 10% slower
 comparing to the standard execution.
-

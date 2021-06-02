@@ -71,18 +71,6 @@ benchmarks:
   test_eval[moco-cuda-jit]:
     norm: 0.4255394108000473
     weight: 0.016666666666666666
-  test_eval[pytorch_mobilenet_v3-cpu-eager]:
-    norm: 0.02649310794737702
-    weight: 0.008333333333333333
-  test_eval[pytorch_mobilenet_v3-cpu-jit]:
-    norm: 0.022177800666627768
-    weight: 0.008333333333333333
-  test_eval[pytorch_mobilenet_v3-cuda-eager]:
-    norm: 0.02648011021057372
-    weight: 0.008333333333333333
-  test_eval[pytorch_mobilenet_v3-cuda-jit]:
-    norm: 0.022319256977769125
-    weight: 0.008333333333333333
   test_eval[pytorch_struct-cpu-eager]:
     norm: 0.002343961929295342
     weight: 0.008333333333333333
@@ -179,18 +167,6 @@ benchmarks:
   test_train[moco-cuda-jit]:
     norm: 0.8923939008500383
     weight: 0.016666666666666666
-  test_train[pytorch_mobilenet_v3-cpu-eager]:
-    norm: 0.2377525886000285
-    weight: 0.008333333333333333
-  test_train[pytorch_mobilenet_v3-cpu-jit]:
-    norm: 0.22350112645001446
-    weight: 0.008333333333333333
-  test_train[pytorch_mobilenet_v3-cuda-eager]:
-    norm: 0.2387644355000475
-    weight: 0.008333333333333333
-  test_train[pytorch_mobilenet_v3-cuda-jit]:
-    norm: 0.22566257204994145
-    weight: 0.008333333333333333
   test_train[pytorch_struct-cpu-eager]:
     norm: 6.161046483800055
     weight: 0.008333333333333333

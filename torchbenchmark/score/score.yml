@@ -5,7 +5,6 @@ hierarchy:
       # segmentation:
         # maskrcnn_benchmark:
       classification:
-        pytorch_mobilenet_v3:
       detection:
         yolov3:
       # generation:
